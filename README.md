@@ -16,3 +16,5 @@
 * [Calibrating Hull-White](https://nbviewer.jupyter.org/github/Lapsilago/Machine-Learning---Option-Pricing-Calibration-Hedging--/blob/master/HW_1F_Pricing.ipynb): Learn the calibration function of a Hull-White model using a neural network
 * [Autograd](https://nbviewer.jupyter.org/github/Lapsilago/Machine-Learning---Option-Pricing-Calibration-Hedging--/blob/master/Autograd.ipynb): A small example on how to automatically differentiate the Black-Scholes pricing formula
 
+
+[References](https://github.com/niknow/machine-learning-examples/blob/master/References.md)
