@@ -43,5 +43,8 @@
 [[URL]](https://arxiv.org/abs/1705.06899)
 
 
-
-
+## XVA
+* Crépey, Dixon: Gaussian Process Regression for Derivative Portfolio Modeling and Application to CVA Computations
+[[URL]](https://arxiv.org/abs/1901.11081)
+* Ma, Spinner, Venditti, Li, Tang: Initial Margin Simulation with Deep Learning
+[[URL]](https://ssrn.com/abstract=3357626)
