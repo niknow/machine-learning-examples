@@ -59,6 +59,8 @@
 [[URL]](https://www.scribd.com/doc/198899911/Evaluating-and-Hedging-Exotic-Swap-Instruments-via-LGM)
 * Heston: A Closed-Form Solution for Options with Stochastic Volatility with Applications to Bond and Currency Options
 [[URL]](https://doi.org/10.1093/rfs/6.2.327)
+* Andersen: Efficient Simulation of the Heston Stochastic Volatility Model
+[[URL]](https://ssrn.com/abstract=946405)
 
 ## American Monte Carlo
 * Longstaff, Schwarz: Valuing American Options by Simulation: A Simple Least-Squares Approach
