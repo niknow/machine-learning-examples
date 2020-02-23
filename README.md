@@ -11,8 +11,10 @@
 * [Network Topology Selection](https://nbviewer.jupyter.org/github/niknow/machine-learning-examples/blob/master/network_topology_selection/network_topology_selection.ipynb): A methodology to choose a topology for a neural network, e.g. the number of hidden layers and units
 
 * Training Networks & Optimization Techniques
-    * [Gradiend Descent: Basics](https://nbviewer.jupyter.org/github/niknow/machine-learning-examples/blob/master/newton_gradient_backprop/gradient_descent.ipynb) Mathematical foundations and basics of gradient descent
-    * [Gradient Descent: Advanced](https://nbviewer.jupyter.org/github/Lapsilago/Machine-Learning---Option-Pricing-Calibration-Hedging--/blob/master/stochastic_gradient_descent.ipynb) [[@lapislago]](https://github.com/Lapsilago/Machine-Learning---Option-Pricing-Calibration-Hedging--): Some illustrations, background and examples of gradient descent
+    * [Newton's Method](https://nbviewer.jupyter.org/github/niknow/machine-learning-examples/blob/master/newton_gradient_backprop/newton.ipynb): A recap of the Newton's method
+    * [Gradiend Descent - Basics](https://nbviewer.jupyter.org/github/niknow/machine-learning-examples/blob/master/newton_gradient_backprop/gradient_descent.ipynb): Mathematical foundations and basics of gradient descent
+    * [Gradient Descent - Advanced](https://nbviewer.jupyter.org/github/Lapsilago/Machine-Learning---Option-Pricing-Calibration-Hedging--/blob/master/stochastic_gradient_descent.ipynb) [[@lapislago]](https://github.com/Lapsilago/Machine-Learning---Option-Pricing-Calibration-Hedging--): Some illustrations, background and examples of gradient descent
+    * [Backpropagation](https://nbviewer.jupyter.org/github/niknow/machine-learning-examples/blob/master/newton_gradient_backprop/backpropagation.ipynb): Derivation of the backpropagation algorithm
 
 * [Learning the Sine](https://nbviewer.jupyter.org/github/Lapsilago/Machine-Learning---Option-Pricing-Calibration-Hedging--/blob/master/LearnSine_JK.ipynb) [[@lapislago]](https://github.com/Lapsilago/Machine-Learning---Option-Pricing-Calibration-Hedging--): Simple example of how to use keras and tensorflow to learn a curve
 
