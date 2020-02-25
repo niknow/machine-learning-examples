@@ -15,6 +15,7 @@
     * [Gradiend Descent - Basics](https://nbviewer.jupyter.org/github/niknow/machine-learning-examples/blob/master/newton_gradient_backprop/gradient_descent.ipynb): Mathematical foundations and basics of gradient descent
     * [Gradient Descent - Advanced](https://nbviewer.jupyter.org/github/Lapsilago/Machine-Learning---Option-Pricing-Calibration-Hedging--/blob/master/stochastic_gradient_descent.ipynb) [[@lapislago]](https://github.com/Lapsilago/Machine-Learning---Option-Pricing-Calibration-Hedging--): Some illustrations, background and examples of gradient descent
     * [Backpropagation](https://nbviewer.jupyter.org/github/niknow/machine-learning-examples/blob/master/newton_gradient_backprop/backpropagation.ipynb): Derivation of the backpropagation algorithm
+    * [Adjoint Method](https://nbviewer.jupyter.org/github/niknow/machine-learning-examples/blob/master/newton_gradient_backprop/adjoint.ipynb): Relationship between backpropagation and the adjoint method
 
 * [Learning the Sine](https://nbviewer.jupyter.org/github/Lapsilago/Machine-Learning---Option-Pricing-Calibration-Hedging--/blob/master/LearnSine_JK.ipynb) [[@lapislago]](https://github.com/Lapsilago/Machine-Learning---Option-Pricing-Calibration-Hedging--): Simple example of how to use keras and tensorflow to learn a curve
 
