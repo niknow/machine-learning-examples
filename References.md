@@ -55,4 +55,14 @@
 * [[URL]](https://www.risk.net/derivatives/1589992/funding-beyond-discounting-collateral-agreements-and-derivatives-pricing) Piterbarg: Funding Beyond Discounting
 
 ## DIM and MVA
+* [[URL]](https://ssrn.com/abstract=2716279) Anfuso, Aziz, Giltinan, Loukopoulos: A Sound Modelling and Backtesting Framework for Forecasting Initial Margin Requirements
+* [[URL]](https://ssrn.com/abstract=2911167) Caspers, Giltinan, Lichters, Nowaczyk: Forecasting Initial Margin Requirements - A Model Evaluation
 * [[URL]](https://arxiv.org/abs/1808.08221) Ruiz, Zeron: Dynamic Initial Margin via Chebyshev Spectral Decomposition
+* [[URL]](https://ssrn.com/abstract=3147811) McWalter, Kienitz, Nowaczyk, Rudd, Acar: Dynamic Initial Margin Estimation Based on Quantiles of Johnson Distributions
+* [[URL]](https://ssrn.com/abstract=2806156) Andersen, Pykhtin, Sokol: Credit Exposure in the Presence of Initial Margin
+* [[URL]](https://ssrn.com/abstract=2902737) Andersen, Pykhtin, Sokol: Rethinking the Margin Period of Risk
+* [[URL]](https://ssrn.com/abstract=3040061) Antonov, Issakov, McClelland: Efficient SIMM-MVA Calculations for Callable Exotics
+* [[URL]](https://ssrn.com/abstract=3018165) Fries: Fast Stochastic Forward Sensitivities in Monte-Carlo Simulations Using Stochastic Automatic Differentiation (with Applications to Initial Margin Valuation Adjustments (MVA))
+* [[URL]](https://arxiv.org/abs/1512.07337) Lou: MVA Transfer Pricing
+
+
