@@ -38,6 +38,7 @@
 * [[URL]](https://www.scribd.com/doc/198899911/Evaluating-and-Hedging-Exotic-Swap-Instruments-via-LGM) Hagan: Evaluating and Hedging Exotic Swap Instruments via LGM
 * [[URL]](https://doi.org/10.1093/rfs/6.2.327) Heston: A Closed-Form Solution for Options with Stochastic Volatility with Applications to Bond and Currency Options
 * [[URL]](https://ssrn.com/abstract=946405) Andersen: Efficient Simulation of the Heston Stochastic Volatility Model
+* [[URL]](https://www.researchgate.net/profile/Patrick_Hagan3/publication/300789919_Probability_Distribution_in_the_SABR_Model_of_Stochastic_Volatility/links/5c91734a299bf11169395d8f/Probability-Distribution-in-the-SABR-Model-of-Stochastic-Volatility.pdf) Hagan, Lesniewski, Woodward: Probability Distribution in the SABR Model of Stochastic Volatility
 
 ## American Monte Carlo
 * [[URL]](https://escholarship.org/uc/item/43n1k4jb) Longstaff, Schwarz: Valuing American Options by Simulation: A Simple Least-Squares Approach
