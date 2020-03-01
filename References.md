@@ -39,6 +39,7 @@
 * [[URL]](https://doi.org/10.1093/rfs/6.2.327) Heston: A Closed-Form Solution for Options with Stochastic Volatility with Applications to Bond and Currency Options
 * [[URL]](https://ssrn.com/abstract=946405) Andersen: Efficient Simulation of the Heston Stochastic Volatility Model
 * [[URL]](https://www.researchgate.net/profile/Patrick_Hagan3/publication/300789919_Probability_Distribution_in_the_SABR_Model_of_Stochastic_Volatility/links/5c91734a299bf11169395d8f/Probability-Distribution-in-the-SABR-Model-of-Stochastic-Volatility.pdf) Hagan, Lesniewski, Woodward: Probability Distribution in the SABR Model of Stochastic Volatility
+* [[URL]](https://ssrn.com/abstract=966364) Trolle, Schwarz: A General Stochastic Volatility Model for the Pricing of Interest Rate Derivatives
 
 ## American Monte Carlo
 * [[URL]](https://escholarship.org/uc/item/43n1k4jb) Longstaff, Schwarz: Valuing American Options by Simulation: A Simple Least-Squares Approach
@@ -53,7 +54,12 @@
 
 ## FVA
 * [[URL]](https://ssrn.com/abstract=2027195) Burghard, Kjar: Funding Costs, Funding Strategies
+* [[URL]](https://ssrn.com/abstract=2157634) Burgard, Kjaer: The FVA Debate: In Theory and Practice
+* [[URL]](https://ssrn.com/abstract=1785262) Burgard, Kjaer: In the Balance
 * [[URL]](https://www.risk.net/derivatives/1589992/funding-beyond-discounting-collateral-agreements-and-derivatives-pricing) Piterbarg: Funding Beyond Discounting
+* [[URL]](https://ssrn.com/abstract=2746010) Andersen, Duffie, Song: Funding Value Adjustments
+
+
 
 ## DIM and MVA
 * [[URL]](https://ssrn.com/abstract=2716279) Anfuso, Aziz, Giltinan, Loukopoulos: A Sound Modelling and Backtesting Framework for Forecasting Initial Margin Requirements
