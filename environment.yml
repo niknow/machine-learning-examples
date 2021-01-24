@@ -1,23 +1,77 @@
 name: ml
 channels:
+  - plotly
+  - pytorch
   - anaconda
+  - conda-forge
   - defaults
 dependencies:
-  - ca-certificates=2019.8.28=0
-  - certifi=2019.9.11=py36_0
+  - astroid=2.4.2=py36_0
+  - cudatoolkit=10.2.89=h74a9793_1
+  - freetype=2.8=vc14h17c9bdf_0
   - graphviz=2.38.0=4
+  - h5py=2.7.1=py36he54a1c3_0
+  - hdf5=1.10.1=vc14hb361328_0
+  - icu=58.2=vc14hc45fdbb_0
+  - joblib=0.13.2=py36_0
+  - jpeg=9b=vc14h4d7706e_1
+  - lazy-object-proxy=1.4.2=py36he774522_0
+  - libiconv=1.15=vc14h29686d3_5
   - libprotobuf=3.8.0=h7bd577a_0
+  - libsodium=1.0.3=0
+  - libtiff=4.0.8=vc14h04e2a1e_10
+  - libxml2=2.9.4=vc14h8fd0f11_5
+  - libxslt=1.1.29=vc14hf85b8d4_5
+  - line_profiler=2.1.2=py36hfa6e2cd_0
+  - lxml=4.1.1=py36he0adb16_0
+  - matplotlib=2.2.2=py36h153e9ff_1
   - mkl-service=2.0.2=py36he774522_0
   - mkl_random=1.0.2=py36h343c172_0
+  - mpld3=0.3=py36_0
+  - nose=1.3.7=py36_2
   - numpy=1.16.4=py36h19fb1c0_0
   - numpy-base=1.16.4=py36hc3f5095_0
-  - openssl=1.1.1=he774522_0
+  - pillow=4.2.1=py36hdb25ab2_0
   - protobuf=3.8.0=py36h33f27b4_0
   - pydot=1.4.1=py36_0
+  - pylint=2.6.0=py36_0
   - pyrsistent=0.14.11=py36he774522_0
+  - pyzmq=17.0.0=py36hfa6e2cd_0
+  - qt=5.9.7=vc14h73c81de_0
+  - scikit-learn=0.21.2=py36h6288b17_0
   - sqlite=3.29.0=he774522_0
-  - vc=14.1=h21ff451_3
-  - vs2015_runtime=15.5.2=3
+  - tk=8.6.7=vc14hb68737d_1
+  - toml=0.10.1=py_0
+  - typed-ast=1.4.1=py36he774522_0
+  - yaml=0.1.7=vc14h4cb57cf_1
+  - zeromq=4.2.3=hd6b2f15_3
+  - zlib=1.2.11=vc14h1cdd9ab_1
+  - autopep8=1.4.4=py_0
+  - brotlipy=0.7.0=py36h779f372_1000
+  - ca-certificates=2020.12.5=h5b45459_0
+  - certifi=2020.12.5=py36ha15d459_0
+  - cffi=1.14.3=py36hef61171_0
+  - chardet=3.0.4=py36h9f0ad1d_1007
+  - chart-studio=1.1.0=pyh9f0ad1d_0
+  - colorlover=0.3.0=py_0
+  - cryptography=3.1.1=py36hef61171_0
+  - cufflinks-py=0.17.3=py_0
+  - gpy=1.9.9=py36hc8d92b1_1
+  - idna=2.10=pyh9f0ad1d_0
+  - jupyterthemes=0.20.0=py_0
+  - lesscpy=0.13.0=py_1
+  - openssl=1.1.1h=he774522_0
+  - paramz=0.9.5=py_0
+  - ply=3.11=py_1
+  - pycodestyle=2.5.0=py_0
+  - pycparser=2.20=pyh9f0ad1d_2
+  - pyopenssl=19.1.0=py_1
+  - pysocks=1.7.1=py36h9f0ad1d_1
+  - python-cufflinks=0.17.3=py_0
+  - python_abi=3.6=1_cp36m
+  - requests=2.24.0=pyh9f0ad1d_0
+  - urllib3=1.25.10=py_0
+  - win_inet_pton=1.1.0=py36_0
   - _tflow_select=2.3.0=mkl
   - absl-py=0.8.0=py36_0
   - astor=0.8.0=py36_0
@@ -30,21 +84,17 @@ dependencies:
   - decorator=4.4.0=py36_1
   - defusedxml=0.6.0=py_0
   - entrypoints=0.3=py36_0
-  - freetype=2.9.1=ha9979f8_1
   - gast=0.3.2=py_0
   - grpcio=1.16.1=py36h351948d_1
-  - h5py=2.9.0=py36h5e291fa_0
-  - hdf5=1.10.4=h7ebc959_0
   - icc_rt=2019.0.0=h0cc432a_1
-  - icu=58.2=ha66f8fd_1
   - intel-openmp=2019.4=245
   - ipykernel=5.1.2=py36h39e3cac_0
   - ipython=7.8.0=py36h39e3cac_0
   - ipython_genutils=0.2.0=py36h3c5d0ee_0
   - ipywidgets=7.5.1=py_0
+  - isort=4.3.21=py36_0
   - jedi=0.15.1=py36_0
   - jinja2=2.10.3=py_0
-  - jpeg=9b=hb83a4c4_2
   - jsonschema=3.0.2=py36_0
   - jupyter=1.0.0=py36_7
   - jupyter_client=5.3.3=py36_1
@@ -57,7 +107,7 @@ dependencies:
   - kiwisolver=1.1.0=py36ha925a31_0
   - libmklml=2019.0.5=0
   - libpng=1.6.37=h2a8f88b_0
-  - libsodium=1.0.16=h9d3ae62_0
+  - lz4-c=1.9.2=h62dcd97_1
   - m2w64-gcc-libgfortran=5.3.0=6
   - m2w64-gcc-libs=5.3.0=7
   - m2w64-gcc-libs-core=5.3.0=7
@@ -65,15 +115,17 @@ dependencies:
   - m2w64-libwinpthread-git=5.0.0.4634.697f757=2
   - markdown=3.1.1=py36_0
   - markupsafe=1.1.1=py36he774522_0
-  - matplotlib=3.1.1=py36hc8f65d3_0
+  - mccabe=0.6.1=py36_1
   - mistune=0.8.4=py36he774522_0
   - mkl=2019.4=245
   - mkl_fft=1.0.14=py36h14836fe_0
   - msys2-conda-epoch=20160418=1
   - nbconvert=5.6.0=py36_1
   - nbformat=4.4.0=py36h3a5bc1b_0
+  - ninja=1.10.1=py36h7ef1ec2_0
   - notebook=6.0.1=py36_0
-  - pandas=0.25.1=py36ha925a31_0
+  - olefile=0.46=py_0
+  - pandas=1.1.3=py36ha925a31_0
   - pandoc=2.2.3.2=0
   - pandocfilters=1.4.2=py36_1
   - parso=0.5.1=py_0
@@ -92,11 +144,11 @@ dependencies:
   - pywin32=223=py36hfa6e2cd_1
   - pywinpty=0.5.5=py36_1000
   - pyyaml=5.1.2=py36he774522_0
-  - pyzmq=18.1.0=py36ha925a31_0
-  - qt=5.9.7=vc14h73c81de_0
   - qtconsole=4.5.5=py_0
+  - retrying=1.3.3=py_2
+  - rope=0.14.0=py_0
   - scipy=1.3.1=py36h29ff71c_0
-  - seaborn=0.9.0=py36_0
+  - seaborn=0.11.0=py_0
   - send2trash=1.5.0=py36_0
   - setuptools=41.4.0=py36_0
   - sip=4.19.8=py36h6538335_0
@@ -110,6 +162,8 @@ dependencies:
   - testpath=0.4.2=py36_0
   - tornado=6.0.3=py36he774522_0
   - traitlets=4.3.3=py36_0
+  - vc=14.1=h0510ff6_4
+  - vs2015_runtime=14.16.27012=hf0eaf9b_3
   - wcwidth=0.1.7=py36h3d5aa90_0
   - webencodings=0.5.1=py36_1
   - werkzeug=0.16.0=py_0
@@ -117,8 +171,22 @@ dependencies:
   - widgetsnbextension=3.5.1=py36_0
   - wincertstore=0.2=py36h7fe50ca_0
   - winpty=0.4.3=4
-  - yaml=0.1.7=hc54c509_2
-  - zeromq=4.3.1=h33f27b4_3
-  - zlib=1.2.11=h62dcd97_3
+  - wrapt=1.11.2=py36he774522_0
+  - xz=5.2.5=h62dcd97_0
+  - zstd=1.4.5=h04227a9_0
+  - plotly=4.10.0=py_0
+  - pytorch=1.6.0=py3.6_cuda102_cudnn7_0
+  - torchvision=0.7.0=py36_cu102
+  - pip:
+    - cufflinks==0.17.3
+    - jupyter-contrib-core==0.3.3
+    - jupyter-contrib-nbextensions==0.5.1
+    - jupyter-highlight-selected-word==0.2.0
+    - jupyter-latex-envs==1.4.6
+    - jupyter-nbextensions-configurator==0.4.1
+    - py-lets-be-rational==1.0.1
+    - py-vollib==1.0.1
+    - simplejson==3.17.0
+    - torch==1.6.0
 prefix: D:\Apps\Anaconda3\envs\ml
 
