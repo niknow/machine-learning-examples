@@ -4,7 +4,7 @@
 
 * [Linear Regression](https://nbviewer.jupyter.org/github/niknow/machine-learning-examples/blob/master/regression_revisited/regression_revisited.ipynb): A recap of linear regression - a core fundamental of machine learning.
    
-* [Local Regression](https://nbviewer.jupyter.org/github/niknow/machine-learning-examples/blob/master/gaussian_process_regression/gaussian_process_regression.ipynb): Local regression is a refinement of linear regression that adapts the model at each point of the prediction.  
+* [Local Regression](https://nbviewer.jupyter.org/github/niknow/machine-learning-examples/blob/master/local_regression/local_regression.ipynb): Local regression is a refinement of linear regression that adapts the model at each point of the prediction.  
 
 * [Gaussian Process Regression (GPR)](https://nbviewer.jupyter.org/github/niknow/machine-learning-examples/blob/master/gaussian_process_regression/gaussian_process_regression.ipynb): An advanced regression technique that produces not only predictions, but also confidence bounds around them.
 
