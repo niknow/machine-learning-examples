@@ -1,39 +1,41 @@
-# Machine Learning Examples & Applications
+# Machine Learning Fundamentals
 
+## Advanced Regression Techniques
 
-## Introduction & Tutorials
+* [Linear Regression](https://nbviewer.jupyter.org/github/niknow/machine-learning-examples/blob/master/regression_revisited/regression_revisited.ipynb): A recap of linear regression - a core fundamental of machine learning.
+   
+* [Local Regression](https://nbviewer.jupyter.org/github/niknow/machine-learning-examples/blob/master/gaussian_process_regression/gaussian_process_regression.ipynb): Local regression is a refinement of linear regression that adapts the model at each point of the prediction.  
 
-* Advanced Regression Techniques
+* [Gaussian Process Regression (GPR)](https://nbviewer.jupyter.org/github/niknow/machine-learning-examples/blob/master/gaussian_process_regression/gaussian_process_regression.ipynb): An advanced regression technique that produces not only predictions, but also confidence bounds around them.
 
-   * [Linear Regression](https://nbviewer.jupyter.org/github/niknow/machine-learning-examples/blob/master/regression_revisited/regression_revisited.ipynb): A recap of linear regression - a core fundamental of machine learning.
+## Neural Network Topologies
 
-   * [Gaussian Process Regression (GPR)](https://nbviewer.jupyter.org/github/niknow/machine-learning-examples/blob/master/gaussian_process_regression/gaussian_process_regression.ipynb): An advanced regression technique that produces not only predictions, but also confidence bounds around them.
+* [Multilayer Perceptrons (MLP)](https://nbviewer.jupyter.org/github/niknow/machine-learning-examples/blob/master/neural_network_intro/neural_network_intro_model_setup.ipynb): Introduction to the most common form of artificial neural networks (ANN).
 
-* Neural Network Topologies
+* [Long-Term-Short-Term-Memory networks (LSTM)](https://nbviewer.jupyter.org/github/niknow/machine-learning-examples/blob/master/lstm_intro/lstm_intro.ipynb): Introduction to LSTMs, a popular form of recurrent neural networks (RNNs).
 
-   * [Multilayer Perceptrons (MLP)](https://nbviewer.jupyter.org/github/niknow/machine-learning-examples/blob/master/neural_network_intro/neural_network_intro_model_setup.ipynb): Introduction to the most common form of artificial neural networks (ANN).
+* [Network Topology Selection](https://nbviewer.jupyter.org/github/niknow/machine-learning-examples/blob/master/network_topology_selection/network_topology_selection.ipynb): A methodology to choose a topology for a neural network, e.g. the number of hidden layers and units.
 
-   * [Long-Term-Short-Term-Memory networks (LSTM)](https://nbviewer.jupyter.org/github/niknow/machine-learning-examples/blob/master/lstm_intro/lstm_intro.ipynb): Introduction to LSTMs, a popular form of recurrent neural networks (RNNs).
+## Training Networks & Optimization Techniques
 
-   * [Network Topology Selection](https://nbviewer.jupyter.org/github/niknow/machine-learning-examples/blob/master/network_topology_selection/network_topology_selection.ipynb): A methodology to choose a topology for a neural network, e.g. the number of hidden layers and units.
+* [Newton's Method](https://nbviewer.jupyter.org/github/niknow/machine-learning-examples/blob/master/newton_gradient_backprop/newton.ipynb): A recap of the Newton's method.
 
-* Training Networks & Optimization Techniques
-    * [Newton's Method](https://nbviewer.jupyter.org/github/niknow/machine-learning-examples/blob/master/newton_gradient_backprop/newton.ipynb): A recap of the Newton's method.
+* [Gradiend Descent - Basics](https://nbviewer.jupyter.org/github/niknow/machine-learning-examples/blob/master/newton_gradient_backprop/gradient_descent.ipynb): Mathematical foundations and basics of gradient descent.
 
-    * [Gradiend Descent - Basics](https://nbviewer.jupyter.org/github/niknow/machine-learning-examples/blob/master/newton_gradient_backprop/gradient_descent.ipynb): Mathematical foundations and basics of gradient descent.
+* [Gradient Descent - Advanced](https://nbviewer.jupyter.org/github/Lapsilago/Machine-Learning---Option-Pricing-Calibration-Hedging--/blob/master/stochastic_gradient_descent.ipynb) [[@lapislago]](https://github.com/Lapsilago/Machine-Learning---Option-Pricing-Calibration-Hedging--): Some illustrations, background and examples of gradient descent.
 
-    * [Gradient Descent - Advanced](https://nbviewer.jupyter.org/github/Lapsilago/Machine-Learning---Option-Pricing-Calibration-Hedging--/blob/master/stochastic_gradient_descent.ipynb) [[@lapislago]](https://github.com/Lapsilago/Machine-Learning---Option-Pricing-Calibration-Hedging--): Some illustrations, background and examples of gradient descent.
+* [Backpropagation](https://nbviewer.jupyter.org/github/niknow/machine-learning-examples/blob/master/newton_gradient_backprop/backpropagation.ipynb): Derivation of the backpropagation algorithm.
 
-    * [Backpropagation](https://nbviewer.jupyter.org/github/niknow/machine-learning-examples/blob/master/newton_gradient_backprop/backpropagation.ipynb): Derivation of the backpropagation algorithm.
+* [Adjoint Method](https://nbviewer.jupyter.org/github/niknow/machine-learning-examples/blob/master/newton_gradient_backprop/adjoint.ipynb): Relationship between backpropagation and the adjoint method.
 
-    * [Adjoint Method](https://nbviewer.jupyter.org/github/niknow/machine-learning-examples/blob/master/newton_gradient_backprop/adjoint.ipynb): Relationship between backpropagation and the adjoint method.
+## Basic Examples
 
 * [Learning the Sine](https://nbviewer.jupyter.org/github/Lapsilago/Machine-Learning---Option-Pricing-Calibration-Hedging--/blob/master/LearnSine_JK.ipynb) [[@lapislago]](https://github.com/Lapsilago/Machine-Learning---Option-Pricing-Calibration-Hedging--): Simple example of how to use keras and tensorflow to learn a curve.
 
 * [Learning a 2D function](https://nbviewer.jupyter.org/github/Lapsilago/Machine-Learning---Option-Pricing-Calibration-Hedging--/blob/master/Learn2dFunction.ipynb) [[@lapislago]](https://github.com/Lapsilago/Machine-Learning---Option-Pricing-Calibration-Hedging--): A slightly more complex example of how to learn a surface.
 
 
-## Machine Learning & Quantitative Finance
+# Machine Learning & Quantitative Finance
 * [How deep are financial models?](https://nbviewer.jupyter.org/github/niknow/machine-learning-examples/blob/master/network_topology_selection/how_deep_are_financial_models.ipynb): Learn the pricing function of Black-Scholes and Heston model. Application of [network topology selection](https://nbviewer.jupyter.org/github/niknow/machine-learning-examples/blob/master/network_topology_selection/network_topology_selection.ipynb).
 
 * [Neural Network Brain Surgery](https://nbviewer.jupyter.org/github/niknow/machine-learning-examples/blob/master/network_topology_selection/networks_financial_models_brain_surgery.ipynb): Can the difference between the Black-Scholes and the Heston model be visualized as the brains of the networks that learn their pricing function?
