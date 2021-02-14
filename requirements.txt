@@ -6,5 +6,5 @@ scipy==1.5.4
 GPy==1.9.9
 ipympl==0.6.3
 keras==2.2.2
-tensorflow==1.10.0
+tensorflow==2.4.0
 voila
