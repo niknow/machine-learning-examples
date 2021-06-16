@@ -1,7 +1,6 @@
 import numpy as np
 from scipy.stats import norm
 from scipy.optimize import minimize_scalar, newton
-from py_vollib.black_scholes.implied_volatility import implied_volatility
 
 
 class BlackScholes:
@@ -98,20 +97,6 @@ class BlackScholes:
         return s0 * norm.pdf(d1) * np.sqrt(tm)
 
     @staticmethod
-    def _implied_volatility(r, s0, tm, sk, call, price):
-        """
-        Computes the implied volatility of a European option.
-
-        :param r: risk-free rate
-        :param s0: value of underlying stock price at t=0
-        :param tm: time to maturity of the option
-        :param sk: strike of the option
-        :param call: True if call option, False if put
-        """
-
-        return implied_volatility(price, s0, sk, tm, r, 'c' if call else 'p')
-
-    @staticmethod
     def calibrate(vol_quotes):
 
         def cost(sigma):
@@ -135,6 +120,3 @@ class BlackScholes:
 
     def vega(self, s0, tm, sk):
         return BlackScholes._vega(self.sigma, self.r, s0, tm, sk)
-
-    def implied_volatility(self, s0, tm, sk, call, price):
-        return BlackScholes._implied_volatility(self.r, s0, tm, sk, call, price)
