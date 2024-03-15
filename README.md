@@ -1,7 +1,3 @@
-# [Read as interactive book](https://machine-learning-finance.herokuapp.com/voila/render/start.ipynb)
-
------
-
 # Machine Learning Fundamentals
 
 ## Advanced Regression Techniques
@@ -12,7 +8,7 @@
 
 * [Gaussian Process Regression (GPR)](https://nbviewer.jupyter.org/github/niknow/machine-learning-examples/blob/master/gaussian_process_regression/gaussian_process_regression.ipynb): An advanced regression technique that produces not only predictions, but also confidence bounds around them.
 
-* [Dynamically Controlled Kernel Estimation (DCKE)](https://github.com/niknow/machine-learning-examples/blob/master/dynamically_controlled_kernel_estimation/dynamically_controlled_kernel_estimation.ipynb): A combination of local regression, control variates and Gaussian process regression to estimate conditional expectations. The method is model free, data-driven an particularly suited for financial applications.
+* [Dynamically Controlled Kernel Estimation (DCKE)](https://github.com/niknow/machine-learning-examples/blob/master/dynamically_controlled_kernel_estimation/dynamically_controlled_kernel_estimation.ipynb): A combination of local regression, control variates and Gaussian process regression to estimate conditional expectations. The method is model free, data-driven and particularly suited for financial applications.
 
 ## Neural Network Topologies
 
