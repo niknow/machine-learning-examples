@@ -1,5 +1,8 @@
 # Machine Learning Fundamentals
 
+## Classification
+* [Naive Bayes](https://github.com/niknow/machine-learning-examples/blob/master/naive_bayes/naive_bayes.ipynb): Introduction, derivation and reconciliation of Naive Bayes - a baseline model for classification.
+
 ## Advanced Regression Techniques
 
 * [Linear Regression](https://nbviewer.jupyter.org/github/niknow/machine-learning-examples/blob/master/regression_revisited/regression_revisited.ipynb): A recap of linear regression - a core fundamental of machine learning.
