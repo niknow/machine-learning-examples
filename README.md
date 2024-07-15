@@ -3,6 +3,7 @@
 ## Classification
 * [Naive Bayes](https://github.com/niknow/machine-learning-examples/blob/master/naive_bayes/naive_bayes.ipynb): Introduction, derivation and reconciliation of Naive Bayes - a baseline model for classification.
 * [Linear / Quadratic Discriminant Analysis](https://github.com/niknow/machine-learning-examples/blob/master/lda_qda/linear_quadratic_discriminant_analysis.ipynb): Introduction, derivation, properties and examples of LDA/QDA classification
+* [Logistic Regression](https://github.com/niknow/machine-learning-examples/blob/master/logistic_regression/logistic_regression.ipynb): Definitions, Binary and multi-class case, Sigmoid and Softmax functions, Cross-Entropy Loss, Regularization, Examples
 
 ## Advanced Regression Techniques
 
