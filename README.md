@@ -1,5 +1,9 @@
 # Machine Learning Fundamentals
 
+## Probability
+* [Correlation Matrices](https://github.com/niknow/machine-learning-examples/blob/master/correlations/correlation_plot.ipynb): A plotly vizualization of the space of 3x3 correlation matrices using a nice parametrization
+
+
 ## Classification
 * [Naive Bayes](https://github.com/niknow/machine-learning-examples/blob/master/naive_bayes/naive_bayes.ipynb): Introduction, derivation and reconciliation of Naive Bayes - a baseline model for classification.
 
