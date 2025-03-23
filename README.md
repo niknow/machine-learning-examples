@@ -35,6 +35,14 @@
 
 * [Network Topology Selection](https://nbviewer.jupyter.org/github/niknow/machine-learning-examples/blob/master/network_topology_selection/network_topology_selection.ipynb): A methodology to choose a topology for a neural network, e.g. the number of hidden layers and units.
 
+
+## Ensemble Learning
+
+* [Boosting Classifications](https://github.com/niknow/machine-learning-examples/blob/master/ensemble/adaboost_classifier.ipynb): Boosting decision tree classifiers is a very common form of ensemble learning. We discuss the famous SAMME algorithm including the weak classifier training, motivate its the weighting and the exponential loss function. 
+
+* [Boosting Regressions](https://github.com/niknow/machine-learning-examples/blob/master/ensemble/adaboost_regressor.ipynb): Boosting regressors is possible, but slightly different from classifier boosting. We discuss the popular R2 algorithm including the bootstrap sampling and its differences to the SAMME classifier boosting. 
+
+
 ## Training Networks & Optimization Techniques
 
 * [Newton's Method](https://nbviewer.jupyter.org/github/niknow/machine-learning-examples/blob/master/newton_gradient_backprop/newton.ipynb): A recap of the Newton's method.
